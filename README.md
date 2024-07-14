@@ -1,1 +1,1 @@
-### Simple browser extension
+### Simple browser extension that captures cookies
