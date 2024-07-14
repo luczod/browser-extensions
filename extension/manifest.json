@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Reader",
+  "description": "An extension to read cookie from a site",
+  "version": "1.0",
+  "icons": {
+    "48": "extension.png",
+    "128": "extension.png"
+  },
+  "action": {
+    "default_popup": "extension.html",
+    "default_icon": "extension.png"
+  },
+  "permissions": ["cookies", "tabs", "storage", "sidePanel"],
+  "host_permissions": ["<all_urls>"]
+}
